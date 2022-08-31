@@ -1,0 +1,11 @@
+@import url(./assets/styles/github-card.scss);
+@import url(./assets/styles/search-input.scss);
+@import url(./assets/styles/home.scss);
+@import url(./assets/styles/loader.scss);
+@import url(./assets/styles/colors.scss);
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--color-primary);
+  color: var(--color-secondary);
+}
