@@ -1,0 +1,24 @@
+.home {
+  padding: 20px;
+  @media (min-width: 768px) {
+    padding: 60px;
+  }
+}
+
+.cards-list {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 12px;
+  overflow: auto;
+  height: 70vh;
+
+  @media (min-width: 768px) {
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
